@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GAP</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>About</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- Custom Theme files -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- Custom Theme files -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Konstructs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	</head>
+	<body>
+		<!-- header-section-starts -->
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><h1>期中</h1></a>
+				</div>
+				<div class="pages">
+					<ul>
+						<li><a href="index.html">首頁</a></li>
+						<li><a class="active" href="data1.html">統計</a></li>
+						<li><a href="404.html">關於我們</a></li>
+					</ul>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a class="active" href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="container">
+	<div class="header-bottom">
+		<div class="type">
+			<h5>數據分析</h5>
+		</div>
+		<span class="menu"></span>
+		<div class="list-nav">
+			<ul>                                                                 
+				<li><a href="data1.html">data1</a></li>|
+				<li><a href="data2.html">data2</a></li>|
+				<li><a href="data3.html">data3</a></li>|
+				<li><a href="data4.html">data4</a></li>|
+				<li><a href="data5.html">data5</a></li>|
+				<li><a href="GAP.html">GAP</a></li>
+			</ul>
+		</div>
+		<!-- script for menu -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".list-nav" ).slideToggle( "slow", function() {
+                    // Animation complete.
+                });
+			});
+		</script>
+		<!-- script for menu -->
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="container">
+	<div class="content">
+		<div class="about-content">
+			<!-- about -->
+			<h3>GAP</h3>    
+			<div class="tab">
+				<button class="tablinks" onmouseover="openCity(event, 'b1')">因素關係</button>
+				<button class="tablinks" onmouseover="openCity(event, 'b2')">因素關係分組</button>
+				<button class="tablinks" onmouseover="openCity(event, 'b3')">城市關係圖</button>
+
+			</div>
+
+			<div id="b1" class="tabcontent">
+
+
+				<div id="fullscreen">
+					<center> <img  id="myImg" src="images/因素關係.PNG" alt="" style=""></center>
+				</div>
+				<div id="fullscreen_2">
+					<center> <img  id="myImg_2" src="images/因素關係分組.PNG" alt="" style=""></center>
+				</div>
+
+
+			</div>
+
+			<div id="b2" class="tabcontent">
+
+				<div id="fullscreen2">
+					<center> <img  id="myImg2" src="images/城市因素圖.PNG" alt="" class="test"></center>
+
+				</div>
+				<div id="fullscreen2_2">
+					<center> <img  id="myImg2_2" src="images/城市因素圖2.PNG" alt="" class="test"></center>
+				</div>      
+			</div>
+
+			<div id="b3" class="tabcontent">
+
+				<div id="fullscreen3">
+					<center> <img  id="myImg3" src="images/城市關係圖.PNG" alt="" style=""></center>
+				</div>
+				<div id="fullscreen3_2">
+					<center> <img  id="myImg3_2" src="images/城市關係圖分組.PNG" alt="" style=""></center>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="clearfix"></div>
+
+			<script>
+				function openCity(evt, Name) {
+					var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+					for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("tablinks");
+					for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+					}
+					document.getElementById(Name).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+			</script>
+
+
+			<script>
+
+
+
+				var $imgContainer = document.getElementById("fullscreen");
+
+				var $imgContainer_2 = document.getElementById("fullscreen_2");
+				var $img = document.getElementById("myImg");
+				var $img_2 = document.getElementById("myImg_2");
+				var $imgContainer2 = document.getElementById("fullscreen2");
+				var $imgContainer2_2 = document.getElementById("fullscreen2_2");
+				var $img2 = document.getElementById("myImg2");
+				var $img2_2 = document.getElementById("myImg2_2");
+				var $imgContainer3 = document.getElementById("fullscreen3");
+				var $imgContainer3_2 = document.getElementById("fullscreen3_2");
+				var $img3 = document.getElementById("myImg3");
+				var $img3_2 = document.getElementById("myImg3_2");
+				var $imgContainer4 = document.getElementById("fullscreen4");
+				var $img4 = document.getElementById("myImg4");
+
+
+        // 点击图片切换全屏状态
+        $img.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer.webkitRequestFullScreen();
+        	}
+        })
+
+        $img_2.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer_2.webkitRequestFullScreen();
+        	}
+        })
+
+
+
+
+
+        $img2.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer2.webkitRequestFullScreen();
+        	}
+        })
+
+        $img2_2.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer2_2.webkitRequestFullScreen();
+        	}
+        })
+        $img3.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer3.webkitRequestFullScreen();
+        	}
+        })
+        $img3_2.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer3_2.webkitRequestFullScreen();
+        	}
+        })
+        $img4.addEventListener("click", function(){
+        	if(document.webkitIsFullScreen){
+        		document.webkitExitFullscreen();
+        	}else{
+        		$imgContainer4.webkitRequestFullScreen();
+        	}
+        })
+        
+    </script>
+    
+</div>
+</body>
+</html>
+</body>
+</html>
